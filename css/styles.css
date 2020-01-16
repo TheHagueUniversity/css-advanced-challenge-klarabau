@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: black;
+}
+
+
+/*********** GRID ***********/
+.grid{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-auto-flow: row dense;
+}
+.grid-element{
+	background: white;
+	border: 10px solid black;
+	height: 200px;
+}
+
+
+/*********** SIZES ***********/
+.big{
+  grid-row: span 2;
+	height: auto;
+}
+.xbig{
+	grid-row: span 3;
+	height: auto;
+}
+.xxbig{
+	grid-row: span 4;
+	height: auto;
+}
+
+.wide{
+	grid-column: span 2;
+}
+.xwide{
+	grid-column: span 3;
+}
+
+
+/*********** COLORS ***********/
+.red{
+	background: red;
+}
+
+.blue{
+	background: blue;
+}
+
+.yellow{
+	background: yellow;
+}
+
+.black{
+	background: black;
+}
