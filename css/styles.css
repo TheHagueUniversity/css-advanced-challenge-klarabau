@@ -9,7 +9,7 @@
 /*********** GRID ***********/
 .grid{
 	display: grid;
-	grid-template-columns: 33% 33% 33%;
+	grid-template-columns: 50% 50%;
 	grid-auto-flow: row dense;
 }
 .grid-element{
@@ -32,7 +32,6 @@
 	grid-row: span 4;
 	height: auto;
 }
-
 .wide{
 	grid-column: span 2;
 }
@@ -45,15 +44,77 @@
 .red{
 	background: red;
 }
-
 .blue{
 	background: blue;
 }
-
 .yellow{
 	background: yellow;
 }
-
 .black{
 	background: black;
 }
+
+
+/*********** BEAKPOINTS ***********/
+@media screen and (min-width: 800px){
+		.grid{
+		grid-template-columns: 33.3% 33.3% 33.3%;
+	}
+	.grid-element{
+		height: 200px;
+	}
+	.big{
+		grid-row: span 2;
+		height: auto;
+	}
+	.xbig{
+		grid-row: span 3;
+		height: auto;
+	}
+	.xxbig{
+		grid-row: span 4;
+		height: auto;
+	}
+	.wide{
+		grid-column: span 2;
+	}
+	.xwide{
+		grid-column: span 3;
+	}
+}
+
+@media screen and (min-width: 1400px){
+		.grid{
+		grid-template-columns: 25% 25% 25% 25%;
+	}
+	.grid-element{
+		height: 250px;
+	}
+	.big{
+		grid-row: span 2;
+		height: auto;
+	}
+	.xbig{
+		grid-row: span 3;
+		height: auto;
+	}
+	.xxbig{
+		grid-row: span 4;
+		height: auto;
+	}
+	.wide{
+		grid-column: span 2;
+	}
+	.xwide{
+		grid-column: span 3;
+	}
+}
+
+
+
+
+
+
+
+
+
