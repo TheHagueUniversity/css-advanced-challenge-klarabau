@@ -61,7 +61,7 @@
 		grid-template-columns: 33.3% 33.3% 33.3%;
 	}
 	.grid-element{
-		height: 200px;
+		height: 220px;
 	}
 	.big{
 		grid-row: span 2;
@@ -88,7 +88,7 @@
 		grid-template-columns: 25% 25% 25% 25%;
 	}
 	.grid-element{
-		height: 250px;
+		height: 320px;
 	}
 	.big{
 		grid-row: span 2;
@@ -109,12 +109,3 @@
 		grid-column: span 3;
 	}
 }
-
-
-
-
-
-
-
-
-
